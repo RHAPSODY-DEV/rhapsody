@@ -1,0 +1,133 @@
+.headline {
+    background-image: url(brain.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.the-blog {
+    min-width: 100%;
+}
+.the-blog {
+ min-width: 100%;
+ background-color: #0c0b0b1a;
+ min-height: 80px;
+color: white;
+
+}
+.medical {
+    background-color: #79bffa;
+    margin-top: -10px;
+    min-width: 100%;
+    min-height: 40px;
+    color: white;
+    font-weight: 600;
+}
+h2[some] {
+    font-weight: 800;
+}
+.the-blog h2  {
+    margin-left: 40px;
+}
+.medical h6 {
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}.inner-flex {
+    display: flex;
+    grid-gap: 5px;
+}
+.woman, .PI, .SAL {
+    min-width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(woman_running-1024x541.jpg);
+}
+.flexy {
+    display: flex;
+grid-gap: 10px;
+}
+button[bb] {
+    background-color: rgb(15, 68, 180);
+    height: 40px;
+    border: none;
+}
+button[cc] {
+    background-color: #a7a7a7;
+    height: 40px;
+    border: none;
+}
+button[dd] {
+background-color: #45daff;
+height: 40px;
+border: none;
+}
+h1[tt] {
+    color: #79bffa;
+    font-weight: 800;
+}
+h1[tt]:hover {
+    color: rgba(23, 23, 119, 0.87);
+}
+.mdd {
+    font-weight: 800;
+    font-size: 2em;
+}
+.second-flex {
+    padding-top: 80px;
+}
+/* .container {
+    padding: 20px !important;
+} */
+.daily {
+    width: 760px;
+}
+input[text] {
+    width: 100px;
+    transition: 1s;
+    outline: none;
+}
+input:focus{
+    width: 350px;
+    -webkit-transition: 1s;
+    filter: drop-shadow(2px 4px 6px #79bffa);
+    border-radius: 20px;
+    outline: none;
+
+}
+.links a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.links a:hover {
+    text-decoration: underline;
+    color:  #45daff;
+}
+.bluee {
+    background-color:   #45aaff;
+    width: 130%;
+    height: 270px;
+    color: white;
+    font-weight: 800;
+}
+.guide {
+    position: relative;
+    top: 100px;
+    right: -60px;
+}
+button[butt] {
+    border: none;
+    width: 100px;
+    transform: translate(60px, 90px);
+    transition: 1s;
+    color: black;
+    font-weight: 500;
+}
+.bluee:hover > .guide button[butt] {
+    background-color: inherit;
+    transform: translate(60px, 0px);
+    color: white;
+}
+/* button[butt]:hover {
+
+} */
